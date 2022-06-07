@@ -1,0 +1,691 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+
+.banner-fs .banner-wrap {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+.header-main {
+  padding: 4px 0 !important;
+}
+.td1 #p.p1 {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-stretch: normal;
+  line-height: normal;
+}
+
+.td1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(154, 154, 154);
+  padding: 1px 5px;
+}
+
+#economics .section-head,
+#roadmap .section-head {
+  padding-bottom: 40px !important;
+}
+
+.section-head .title-s4 {
+  padding-bottom: 40px !important;
+}
+.solanaimg {
+  width: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  margin: 0 5px;
+}
+#footer .container {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.counter {
+  margin: -15px 0 30px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.has-fixed .header-main {
+  top: 0;
+}
+.has-fixed.is-shrink .header-main {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.has-mask .banner-mask-fix {
+  padding-bottom: 0px;
+}
+
+#root {
+  position: relative;
+}
+
+#root main {
+  padding: 0 !important;
+  text-align: center;
+}
+
+
+.header-navbar-s1 .menu > .menu-item > a {
+  padding: 20px 15px !important;
+  font-size: 14px !important;
+}
+
+.page-header {
+  position: relative;
+  height: 80px;
+}
+
+.spaceship {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+}
+
+.color-theme {
+  color: #2afd6c !important;
+}
+
+.bg-theme-martian-background {
+  background-image: url('../images/backgrounds/Spaceship_2.svg'), url('../images/backgrounds/Spaceship_1.svg');
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+#home-spaceship.mainSpaceship{
+  background: url("../images/v2/background.png");
+  background-size: 100% 100%;
+  background-position: top center;
+
+
+}
+.loading-background{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background: url("../images/v2/loading.png") no-repeat top;
+  maring-top: 0px;
+  margin-bottom: 230px;
+}
+
+.header-main{
+  background: black!important;
+}
+
+.header-banner {
+  display:flex;
+  justify-content: center;
+}
+.nk-banner{
+  max-width: 1400px;
+}
+
+.maxwidth-150{
+  max-width: 100px;
+}
+
+.maxwidth-500{
+  max-width: 500px;
+}
+
+.zero-margin-bottom {
+  margin-bottom:  0px !important;
+  padding-bottom: 0px !important;
+}
+
+.zero-padding-left-right {
+  padding-left:  0px !important;
+  padding-right: 0px !important;
+}
+
+.border-staking {
+  border: 1px solid #2afd6c;
+  border-radius: 50px;
+  background-color: rgba(26, 26, 26, 0.5);
+
+}
+
+.border-info-spaceship {
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  background-color: rgba(26, 26, 26, 0.5);
+  color:white;
+
+}
+
+.team-s3-alt .spaceship-button-bg.not-active:before {
+  opacity: 1;
+  transform: scale(1);
+  background-color: orange;
+}
+
+.mt-6 {
+  margin-top: 1.1rem !important;
+}
+@media (min-width: 1099px) {
+  .mt-6 {
+    margin-top: 4.1rem !important;
+  }
+}
+.header-navbar-s1 .menu > .menu-item > a {
+  padding: 20px 6px !important;
+  /*font-size: 1.3vw !important;*/
+}
+@media (min-width: 1399px){
+  .header-navbar-s1 .menu > .menu-item > a {
+    padding: 30px 15px !important;
+    font-size: 1vw !important;
+  }
+}
+@media (min-width: 1599px){
+  .header-navbar-s1 .menu > .menu-item > a {
+    padding: 30px 15px !important;
+    font-size: 14px !important;
+  }
+}
+
+#faq-spaceship, #faq-mars {
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  min-width: 300px !important;
+  background: linear-gradient(180deg, #2afd6c 0%, #2afd6c 100%);
+  color: #1a1a1a !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+}
+.border-slider:before {
+  left: -8px;
+
+}
+.border-slider:after {
+  right: -8px;
+
+}
+
+.text-color-white{
+  color: white !important;
+}
+
+.text-color-green{
+  color: #2afd6c !important;
+}
+
+.vertical-center {
+  margin-top: 20px;
+}
+@media (min-width: 845px) {
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.mft-stake-button  {
+  width: 100px;
+  height: 40px;
+  border-radius: 90px;
+  background-color: #2afd6c;
+}
+
+.mft-unstake-button {
+  width: 100px !important;
+  height: 40px !important;
+  border-radius: 90px !important;
+  background-color: orange !important;
+}
+.nft-image{
+  border-radius: 0.7em;
+}
+.nft-name{
+  font-size: 2.8vw;
+}
+
+.stake-button{
+  background-color: transparent !important;
+  color: white !important;
+  border: none;
+  mso-border-shadow: no;
+  font-size: 0.8em !important;
+  border-color: transparent !important;
+  text-decoration: underline;
+  padding-bottom: 8px;
+}
+
+
+.reward-score{
+  color: orange;
+  margin-top: 5px;
+  font-size: 8vw;
+}
+
+.reward-text{
+  color: white;
+  font-size: 3.3vw !important;
+}
+
+.your-tokens-text{
+  font-size: 3.4vw !important;
+}
+
+.your-tokens-score {
+  font-size: 6vw !important;
+}
+
+.claim-button {
+  width: 100%;
+  height: 55px;
+  border-radius: 90px;
+  background-color: #2afd6c;
+  font-size: 3.4vw;
+}
+
+@media (min-width: 576px) {
+  .nft-name{
+    font-size: 0.9vw;
+  }
+  .reward-score{
+    font-size: 2vw;
+  }
+  .reward-text{
+    font-size: 0.9vw !important;
+  }
+  .your-tokens-text{
+    font-size: 1.5vw !important;
+  }
+  .your-tokens-score {
+    font-size: 3vw !important;
+  }
+  .claim-button {
+    font-size: 1.1vw;
+  }
+}
+
+@media (min-width: 1599px){
+  .nft-name{
+    font-size: 0.7vw;
+  }
+  .reward-score{
+    font-size: 1.5vw;
+  }
+  .reward-text{
+    font-size: 0.9vw !important;
+  }
+  .your-tokens-text{
+    font-size: 1.1vw !important;
+  }
+  .your-tokens-score {
+    font-size: 2.5vw !important;
+  }
+  .claim-button {
+    font-size:0.7vw;
+  }
+}
+.team{
+  margin-bottom: 0 !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important
+}
+
+.text-uppercase {
+  text-transform: uppercase !important
+}
+
+.text-capitalize {
+  text-transform: capitalize !important
+}
+
+.padding-top-40 {
+  padding-top: 40px !important;
+}
+.padding-top-150 {
+  padding-top: 150px !important;
+}
+.padding-top-200 {
+  padding-top: 200px !important;
+}
+.padding-top-250 {
+  padding-top: 250px !important;
+}
+.padding-top-bottom-20 {
+  padding-top: 20px !important;
+  padding-bottom: 40px !important;
+}
+.padding-50 {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.margin-10 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+.margin-50 {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+.margin-bottom-30{
+  margin-bottom: 30px;
+}
+.margin-bottom-50{
+  margin-bottom: 50px;
+}
+.margin-bottom-100{
+  margin-bottom: 100px !important;
+}
+.margin-bottom-140{
+  margin-bottom: 140px;
+}
+.margin-bottom-150{
+  margin-bottom: 150px;
+}
+.margin-top-50{
+  margin-top: 30px;
+}
+.margin-top-100{
+  margin-top: 100px !important;
+}
+.margin-top-60{
+  margin-top: 60px !important;
+}
+.margin-top-150{
+  margin-top: 150px;
+}
+.offset-1-5{
+  margin-left: 12.5% !important;
+}
+.nk-footer:before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: -100px;
+    background-image: url("../images/v2/stripes_2.png");
+    background-position: top center, bottom center;
+  z-index: 1;
+}
+.nk-footer{
+  background-color: #2afd6c!important;
+  z-index: 99;
+}
+
+#FAQ-SECTION h4{
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+.social{
+  padding-left: 0;
+}
+.nk-footer .social-icon{
+  width: 52px;
+  height: 52px;
+  line-height: 32px;
+  color: #1a1a1a;
+  background: transparent;
+}
+.nk-footer .social li a {
+  width: 60px;
+  height: 60px;
+}
+.nk-footer .social li a em{
+  background: none !important;
+}
+
+/* #####  Slider Section ####*/
+.border-slider {
+  border: 1px solid #2afd6c;
+  background-color: rgba(42, 253, 108, 0.1);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #2afd6c;
+}
+
+.swiper-button-prev{
+  left:-1px;
+}
+.swiper-button-next{
+  right:-1px;
+}
+
+.swiper-button-prev , .swiper-button-next{
+  display: none ;
+}
+
+@media (min-width: 845px) {
+  .swiper-button-prev , .swiper-button-next{
+    display: flex;
+  }
+}
+
+.swiper-wrapper {
+  min-height: 230px;
+}
+@media (min-width: 845px) {
+  .swiper-wrapper {
+    min-height: 260px;
+  }
+}
+@media (min-width: 1000px) {
+  .swiper-wrapper {
+    min-height: 340px;
+  }
+}
+@media (min-width: 1400px) {
+  .swiper-wrapper {
+    min-height: 390px;
+  }
+}
+
+.swiper-pagination{
+color: #2afd6c;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #2afd6c;
+}
+
+.Big-Container{
+  padding-top: 30px;
+}
+/* #### TITLE SLIDER #### */
+.title-slider-box{
+  border: 1px solid #2afd6c;
+  width: 250px !important;
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  left: calc(50% - 125px);
+  position: absolute;
+  top: 70px;
+  background-color: black!important;
+
+}
+@media (min-width: 845px) {
+  .title-slider-box {
+    top: 90px;
+    z-index: 49;
+  }
+}
+
+@media (min-width: 1025px) {
+  .title-slider-box {
+    top: 90px;
+  }
+}
+
+.title-slider-box h3{
+  font-size: 1.5em !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.spaceship-text-title{
+  color: orange !important;
+}
+.min-vh-600{
+ min-height: 600px;
+}
+
+
+/*.spaceship-container {*/
+/*  margin-top: 150px;*/
+/*}*/
+@media (max-width: 845px) {
+  .spaceship-container {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1480px) {
+  .mainSpaceship .container:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    margin-top: 60px;
+    height: 373px;
+    width: calc(20% - 30px);
+    /*background-image: url('../images/v2/stripes_1.png') ;*/
+    background-repeat: repeat-x;
+  }
+  .mainSpaceship .container:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 145px;
+    height: 373px;
+    width: calc(20% - 30px);
+    /*background-image: url('../images/v2/stripes_1.png') ;*/
+    background-repeat: repeat-x;
+  }
+}
+@media (min-width: 2144px) {
+  .mainSpaceship .container:before {
+    width: calc(27% - 15px);
+  }
+  .mainSpaceship .container:after {
+    width: calc(27% - 15px);
+  }
+}
+.mainSpaceship{
+  height: calc(100vh - 100px);
+  min-height: 720px;
+}
+@media (min-width: 845px) {
+  .mainSpaceship{
+    min-height: 820px;
+  }
+}
+.staked-number{
+  position: absolute;
+  right: 3px;
+  background: orange;
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  z-index: 99;
+  color: #1a1a1a;
+  font-size: 1em;
+}
+
+.spaceship-number{
+  position: absolute;
+  right: 3px;
+  background: #2afd6c;
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  z-index: 3;
+  color: #1a1a1a;
+
+}
+
+.empty-wallet-container {
+  margin-top: 59px;
+  margin-bottom: 0px;
+
+}
+
+@media (min-width: 991px) {
+  .empty-wallet-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
+.empty-wallet-container h3{
+  color: #2afd6c !important;
+  font-size: 1.4em;
+}
+
+.wallet-adapter-dropdown{
+  position: relative;
+  padding: 0px 10px !important;
+}
+
+.wallet-adapter-button-trigger{
+  background-color: white;
+  color: #1a1a1a;
+  height: 45px;
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+
+
+.header-logo{
+  margin: 0 !important;
+  position: absolute;
+  top: 0%;
+}
+
+.connect-wallet-box {
+  margin: 0;
+  position: absolute;
+  padding-top: 70px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header-navbar{
+  z-index: 999999;
+}
+
+.height-100{
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .container-sm {
+    max-width: 100% !important;
+  }
+}
+
+.header-nav-toggle{
+  position: absolute;
+  right: 0;
+  height: 0 !important;
+}
+
+.header-menu .social li{
+  display: block !important;
+}
